@@ -30,5 +30,14 @@ if (a!=b and b!=c and c!=a):
                         print ("El menor es ", a,", el siguiente es", b,"y el mayor es ", c)
                        
 
-                    
+#Sumar numeros
+
+Sumanum = a+b+c
+print("La suma total de los numeros ingresados es "), Sumanum
+
+if Sumanum < 100:
+    print ("La suma de los numeros ingresados fue mayor a 100")
+else:
+    print ("La suma de los numeros no supera los 100, debera volver a ingresar los 3 numeros")
+
 
